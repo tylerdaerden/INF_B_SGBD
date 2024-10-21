@@ -1,11 +1,13 @@
+package be.iramps;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class Connexion {
-    public static void main(String[] args) throws Exception {
+public class Main {
+public static void main(String[] args) throws Exception {
         // Information de connexion
         final String url = "jdbc:postgresql://127.0.0.1/";
         final String user = "postgres";
@@ -59,5 +61,4 @@ public class Connexion {
         }
 
     }
-
 }
