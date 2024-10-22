@@ -11,15 +11,6 @@ import main.java.BL.Section.Section;
 
 public class SectionDAO implements ISectionDAO {
 
-    // // Information de connexion
-    // final String url = "jdbc:postgresql://127.0.0.1/";
-    // final String user = "postgres";
-    // final String password = "Test1234";
-    // // Connexion a la base de donnees.
-    // Connection connexion = null;
-    // Statement statement = null;
-    // ResultSet resultSet = null;
-
     @Override
     public ArrayList<Section> getSections() {
 
